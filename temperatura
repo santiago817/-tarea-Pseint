@@ -1,0 +1,24 @@
+Algoritmo sin_titulo
+	Definir  temperatura1,temperatura2,temperatura3,temperatura4,temperatura5,promedio Como Real
+	Escribir 'primera temp es de'
+	Leer temperatura1
+	
+	Escribir 'segunda temp es de'
+	Leer  temperatura2
+	
+	Escribir  'tercera temp es de '
+    leer temperatura3
+	
+	Escribir  'cuarta temp es de '
+	Leer temperatura4
+	
+	Escribir 'quinta temp es de '
+	Leer temperatura5
+	
+	
+	promedio<-(temperatura1+temperatura2+temperatura3+temperatura4+temperatura5) /5
+	
+	Escribir  'el promedio de las cinco temperaturas registradas es de  ',promedio
+	
+	
+FinAlgoritmo
