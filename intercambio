@@ -1,13 +1,13 @@
 Algoritmo sin_titulo
-	definir num1,num2 Como Entero
-	num1=10
-	num2=20
+	definir num1,num2 Como real
+	num1=10.5
+	num2=20.2
 	
 	Escribir  'num1 es de ',num1
 	Escribir 'num2 es de ',num2
 	
-	num1 = 20
-	num2 = 10
+	num1 = 20.2
+	num2 = 10.5
 	
 	Escribir 'num1 cambio a ',num1
 	Escribir 'num2 cambio a ',num2
