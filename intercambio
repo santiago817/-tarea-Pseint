@@ -1,0 +1,18 @@
+Algoritmo sin_titulo
+	definir num1,num2 Como Entero
+	num1=10
+	num2=20
+	
+	Escribir  'num1 es de ',num1
+	Escribir 'num2 es de ',num2
+	
+	num1 = 20
+	num2 = 10
+	
+	Escribir 'num1 cambio a ',num1
+	Escribir 'num2 cambio a ',num2
+	
+	
+	
+	
+FinAlgoritmo
