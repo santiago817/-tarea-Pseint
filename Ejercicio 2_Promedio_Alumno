@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	Definir  promedio1,promedio2,promedio3, promedio Como Real
+	Escribir 'calificacion 1'
+	leer promedio1
+	
+	Escribir  'calificaicon2'
+	Leer promedio2
+	
+	Escribir  'calificacion3'
+	Leer promedio3
+	
+	promedio<- (promedio1+promedio2+promedio3) /3
+	
+	
+	Escribir 'El promedio de las calificaciones es ' promedio
+	
+	
+	
+FinAlgoritmo
