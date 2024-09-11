@@ -1,0 +1,45 @@
+Algoritmo sin_titulo
+	Definir pelicula Como Entero
+	Definir descuento Como caracter
+	Definir reducido Como Caracter
+	Definir total Como Real
+	
+	
+	Escribir "selecione la pelicula q quiere ver"
+	leer pelicula
+	Escribir  "es en horario poco concurrido s/n?"
+	leer reducido
+	Escribir "tiene descuento del 20% S/N? "
+	leer descuento
+	
+	si(pelicula=1)
+		si  reducido='s'
+			total=1000
+		SiNo
+			
+		total=1200
+	si descuento='s'
+		total=1200 - (1200*0.20)
+	FinSi
+FinSi
+FinSi
+si(pelicula=2)
+	si  reducido='s'
+		total=1300
+	SiNo
+		
+		total=1500
+		si descuento='s'
+			total=1500 - (1500*0.133)
+		FinSi
+	FinSi
+FinSi
+si (pelicula=3)
+	total=1800
+	
+FinSi
+
+	
+	
+	Escribir "total a pagar es de ",total " pesos"
+FinAlgoritmo
