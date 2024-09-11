@@ -1,0 +1,72 @@
+Algoritmo sin_titulo
+	Definir elegir_opcion Como Caracter
+	definir num1 Como Real
+	Definir  resultado como real
+	Definir calcular Como Caracter
+	Definir i Como Entero
+	
+	Para i = 1 Hasta 6
+	Escribir "elija cualquier opcion A_longitud,B_Peso,C_Temperatura"
+	Leer elegir_opcion
+	Escribir "que nesesitas calcular? tenemos m.k/k.m/kg.gr/gr.kg/cl.fa/fa.cl "
+	leer calcular
+	Escribir "elija un numero para calcular"
+	leer num1
+	
+	
+	
+	si (elegir_opcion="A")
+		si (calcular="m.k")
+			resultado = num1 / 1000
+		sino 
+			si (calcular = "k.m")
+			resultado = num1 * 1000
+		FinSi
+		
+		
+	FinSi
+	Escribir  "la distancia  es de  ",resultado 
+FinSi
+
+si (elegir_opcion="B")
+	si (calcular="kg.gr")
+		resultado = num1 * 1000
+	sino 
+		si (calcular = "gr.kg")
+			resultado = num1 / 1000
+		FinSi
+		
+		
+	FinSi
+	Escribir  "el peso es de  ",resultado 
+FinSi
+si (elegir_opcion="C")
+	si (calcular="cl.fa")
+		resultado = (num1 * 9/5)+32
+	sino 
+		si (calcular = "fa.cl")
+			resultado = (num1 - 32) * 5/9
+		FinSi
+		
+		
+	FinSi
+	Escribir  "la temperatura es de   ",resultado 
+FinSi
+FinPara
+
+	
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
+
+	
+	
+	
+	
+	
+	
+FinAlgoritmo
