@@ -1,0 +1,39 @@
+Algoritmo sin_titulo
+	Dimension  carga[6]
+	Definir positivoo Como Entero
+	Definir negativoo Como Entero
+	positivoo = 0
+	negativoo = 0
+	
+	Para i=0 Hasta 5 con paso 1 Hacer
+		Escribir  (" ingrese el numero a guardar ")
+		leer carga[i]
+	FinPara
+	
+	Escribir "vector 0 es de ",carga[0]
+	Escribir "vector 1 es de ",carga[1]
+	Escribir "vector 2 es de ",carga[2]
+	Escribir "vector 3 es de ",carga[3]
+	Escribir "vector 4 es de ",carga[4]
+	Escribir "vector 5 es de ",carga[5]
+	Para i=0 Hasta 5 con paso 1 Hacer
+		si   carga[i] > 0 Entonces
+			positivoo = positivoo+1
+		SiNo
+			Si carga[i] < 0 Entonces
+			negativoo = negativoo + 1
+			
+		FinSi
+	FinSi
+	
+	FinPara
+	
+
+	
+	
+	Escribir"la cantidad de numeros positivos es de  : " positivoo
+	Escribir  " la cantidad de negativos es de : " negativoo
+	
+	
+	
+FinAlgoritmo
