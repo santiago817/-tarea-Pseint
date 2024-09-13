@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Definir ancho,largo Como Real
+	Definir perimetro Como Real
+	Escribir "ingrese el ancho q desea"
+	Leer ancho
+	Escribir "ingrese el lagor q desea"
+	Leer largo
+	
+	perimetro = 2 * (ancho+largo)
+	
+	Escribir "El perímetro del rectángulo es ",perimetro
+	
+FinAlgoritmo
