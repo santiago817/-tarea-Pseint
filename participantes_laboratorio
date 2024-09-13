@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	Definir participante,tiempo,menorTiempo,participanteaux Como entero
+	menorTiempo<- 1500000
+	
+	
+	
+	para i <- 0 hasta 9 con paso 1 Hacer
+		Escribir "ingrese el numero de participantes"
+		leer participante
+		Escribir "ingrese el tiempo q tardo en completar la pruebas de laboratorio "
+		leer tiempo
+		
+		
+		
+		si (tiempo < menorTiempo) Entonces
+			menorTiempo <- tiempo
+			participanteaux <- participante
+		FinSi
+		
+		
+		
+		
+	FinPara
+	
+	
+	Escribir "el mejor tiempo es de  ",menorTiempo," min " " el numero del participante es el : ",participanteaux
+
+	
+FinAlgoritmo
