@@ -1,0 +1,8 @@
+Algoritmo sin_titulo
+	
+	para i <-  1 hasta 5
+		Escribir i
+		
+	FinPara
+	
+FinAlgoritmo
