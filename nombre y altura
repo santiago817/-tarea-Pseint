@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Definir nombre Como Caracter
+	Definir altura Como Real
+	
+	Escribir "ingrese su nombre completo"
+	leer nombre
+	
+	Escribir "ingrese su altura"
+	leer altura
+	
+	Escribir "hola ", nombre " su altura es de :", altura ," cm"
+	
+FinAlgoritmo
