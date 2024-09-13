@@ -1,0 +1,31 @@
+Algoritmo sin_titulo
+	Definir novela,librotexto,revistas Como Entero
+	Definir servicio,total Como entero
+	novela<-3000
+	librotexto<-5000
+	revistas<-1500
+	Escribir "bienvenido a la libreria q nesesita ?"
+	Escribir "tenemos variedad de cosas"
+	Escribir "1.novela"
+	Escribir "2.libro de texto"
+	Escribir "3.revistas"
+	Escribir "4.novelas y lib5ros de texto"
+	Escribir "5.todos los tipos de libros"
+	Escribir "6.novelas y revistas"
+	Escribir "7.Libros de texto y revistas"
+	leer servicio
+	
+	Segun  servicio Hacer
+		1: total<- novela
+		2: total<- librotexto
+		3: total<- revistas
+		4: total<- novela + librotexto
+		5: total<- novela + librotexto + revistas
+		6: total<- novela + revistas
+		7: total<- librotexto + revistas	
+		
+	FinSegun
+	
+	Escribir "el total es: ",total, " pesos" 
+	
+FinAlgoritmo
