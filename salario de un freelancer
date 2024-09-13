@@ -1,0 +1,14 @@
+Algoritmo sin_titulo
+	Definir  tarifaHora,HorasTrabajadas como real
+	Definir  ingresoMensual Como Real
+	Escribir "ingrese el monto q gana por hora"
+	leer tarifaHora
+	Escribir "ingrese horas trabajadas al mes"
+	Leer HorasTrabajadas
+	
+	ingresoMensual= tarifaHora * HorasTrabajadas
+	
+	Escribir "El ingreso mensual del freelancer es de: ", ingresoMensual
+	
+	
+FinAlgoritmo
