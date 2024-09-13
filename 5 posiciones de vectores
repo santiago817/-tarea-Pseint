@@ -1,0 +1,19 @@
+Algoritmo sin_titulo
+	Dimension vector[5]
+	
+	para i=0 hasta 4 Hacer
+		Escribir "ingrese la carga de vectores"
+		leer vector[i]
+		
+	FinPara
+	Escribir "la carga de vector 0 es de : ",vector[0]
+	Escribir  "la carga de vector 1 es de : ",vector[1]
+	Escribir "la carga de vector 2 es de : ",vector[2]
+	Escribir "la carga de vector 3 es de : ",vector[3]
+	Escribir "la carga de vector 4 es de : ",vector[4]
+	
+	
+	
+	
+	
+FinAlgoritmo
