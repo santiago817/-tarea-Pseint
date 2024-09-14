@@ -5,7 +5,7 @@ Algoritmo sin_titulo
 	Mientras  (num <= 10)
 		
 		Escribir  "el numero es " , num
-		num = num + 2
+		num = num + 1
 		
 		
 		
