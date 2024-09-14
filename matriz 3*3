@@ -1,0 +1,29 @@
+Algoritmo sin_titulo
+	Dimension matriz[3,3]
+	Definir fila Como Entero
+	Definir columna Como Entero
+	
+	para fila <- 0 Hasta 2 Con Paso 1
+		para columna <- 0 hasta 2 con paso 1
+			Escribir "ingrese el valor de filas y columnas "
+			leer matriz[fila,columna]
+			
+		FinPara
+	FinPara
+	
+	Escribir "La matriz ingresada es:"
+	
+
+para fila = 0 Hasta 2 Con Paso 1 Hacer
+	para columna = 0 Hasta 2 Con Paso 1 Hacer
+		Escribir (matriz[fila,columna])
+	FinPara
+	Escribir  ("")
+finpara
+
+	
+	
+	
+	
+	
+FinAlgoritmo
