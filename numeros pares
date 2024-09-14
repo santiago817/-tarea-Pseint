@@ -1,0 +1,15 @@
+Algoritmo sin_titulo
+	Definir  num Como Entero
+	Escribir "ingrese un numero"
+	Leer num
+	Mientras  (num <= 10)
+		
+		Escribir  "el numero es " , num
+		num = num + 2
+		
+		
+		
+		
+	FinMientras
+	
+FinAlgoritmo
