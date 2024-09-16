@@ -8,6 +8,7 @@ Algoritmo sin_titulo
 	Escribir "ingrese su altura"
 	leer altura
 	
-	Escribir "hola ", nombre " su altura es de :", altura ," metros"
+	Escribir "Hola ", nombre, ". Tu altura es ", altura, " metros."
+
 	
 FinAlgoritmo
