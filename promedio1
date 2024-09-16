@@ -8,7 +8,7 @@ Algoritmo sin_titulo
 	
 	promedio<- (num1+num2) /2
 	
-	Escribir 'el promedio de num1 y num 2 es de  ',promedio
+	Escribir "El promedio de ", num1, " y ", num2, " es: ", promedio
 	
 	
 FinAlgoritmo
