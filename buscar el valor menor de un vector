@@ -4,25 +4,17 @@ Algoritmo sin_titulo
 	Definir pocicion Como Entero
 	reducido = 99999999
 	
-	Escribir "ingrese carga de vector 0"
-	Leer carga[0]
-	Escribir "ingrese carga de vector 1"
-	Leer carga[1]
-	Escribir "ingrese carga de vector 2"
-	Leer carga[2]
-	Escribir "ingrese carga de vector 3"
-	Leer carga[3]
-	Escribir "ingrese carga de vector 4"
-	Leer carga[4]
-	Escribir "ingrese carga de vector 5"
-	Leer carga[5]
+	Escribir "ingrese carga de vectores"
+    para i= 0 hasta 5 Con Paso 1 Hacer
+		Leer carga[i]
+	FinPara
 	
 	para i=0 Hasta 5 con paso 1 Hacer
 		si (carga[i]<reducido)Entonces
 			reducido=carga[i]
 			pocicion=i
 		FinSi
-	
+		
 	FinPara
 	
 	
@@ -36,8 +28,8 @@ Algoritmo sin_titulo
 	
 	
 	Escribir "la carga menor de los vectores es de  ", reducido " y ","esta en la pocicion ",pocicion
-
-
+	
+	
 	
 	
 FinAlgoritmo
